@@ -1,0 +1,14 @@
+CREATE DATABASE studentdb;
+
+USE studentdb;
+
+CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    course VARCHAR(100)
+);
+
+INSERT INTO students (id, name, course)
+VALUES (101, 'Naveenkumar', 'B.Sc Computer Science');
+
+SELECT * FROM students;
